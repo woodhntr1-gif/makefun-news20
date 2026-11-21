@@ -16,7 +16,7 @@ The news was taken from reporting by the WSJ, CNN, Reuters, AP, BBC, Fox and the
 python3 main.py
 ```
 
-That renders `entry.png` (1024×1024) in the working directory, or in `$MAKEFUN_OUTPUT_DIR` when it is set.
+That copies the pre-rendered `entry.png` (1024×1024) into the working directory, or into `$MAKEFUN_OUTPUT_DIR` when it is set. Nothing is drawn while the program runs — `render.py` documents how the picture was drawn (Pillow, fully deterministic), and `main.py` only copies the exact bytes.
 
 ---
 
